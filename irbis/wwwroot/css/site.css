@@ -1,0 +1,469 @@
+body{
+    background: #fff;
+    font-family: 'Montserrat', sans-serief;
+}
+
+
+
+header {
+    width: 80%;
+    padding: 15px 10%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background: #5C3825;
+    border-bottom: 2px solid #bde19c;
+}
+
+header .logo {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+header nav a:hover {text-decoration: underline}
+
+main {
+    width: 80%;
+    padding: 15px 10%;
+    margin: 50px 0;
+}
+
+main label{
+    width: 100%;
+    margin-top: 10px;
+    display: block;
+}
+
+  main input:not([type="submit"]) {
+      width: 90%;
+      padding: 10px 15px;
+      font-size: 14px;
+      border-radius: 5px;
+      border: 1px solid silver;
+      outline: none;
+      margin-top: 7px;
+  }
+    main input:not([type="submit"]):focus{
+        border: 1px solid #ff0000;
+    }
+
+main input[type="submit"] {
+    width: 40%;
+    padding:10px 0;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 7px;
+    background: #ff6a00;
+    font-weight: bold;
+    color: #833904;
+    cursor: pointer;
+}
+
+  main input[type="submit"]:hover {
+      background: #d96614;
+  }
+
+  main form span {
+      color: #ff0000;
+      font-weight:bold;
+      display: block;
+      margin: 5px 0;
+  }
+footer {
+    margin-top: 150px;
+    text-align: center;
+    width: 100%;
+    padding: 25px 0;
+    color: #fff;
+    background: #5C3825;
+    border-top: 2px solid #bde19c;
+}
+
+.kar {background:rgb(243, 228, 228);text-align:center;}
+
+.block_1 {
+    width: 1000px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 150px;
+    background: url(https://images.vfl.ru/ii/1597413289/ed17613e/31342766.jpg);
+    background-size: cover
+}
+
+.block_2 {
+    position: absolute;
+    visibility: hidden;
+    left: 1px;
+    background: rgba(0, 0, 0, 0.4392156862745098);
+    font-size: 20px;
+    color: white;
+    width: 1000px;
+    height: 300px;
+    top: 160px
+}
+
+.block_2 p {padding: 110px 0px;text-align: center;}
+
+.block_1:hover .block_2{visibility:visible;transition:1s;-webkit-transition:1s;transform:translatey(-160px);-webkit-transform:translatey(-160px)}
+
+.block_1:hover{filter:sepia(50%);-webkit-filter:sepia(60%);transition:0.6s;-webkit-transition:0.6s;}
+
+
+.block_3 {
+    width: 1000px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 150px;
+    background: url(https://im3.turbina.ru/photos.4/6/4/1/4/8/1784146/big.photo/Kafedralnyy-Sobor-Rozhdes.jpg);
+    background-size: cover
+}
+.block_4 {
+    position: absolute;
+    visibility: hidden;
+    left: 1px;
+    background: rgba(0, 0, 0, 0.4392156862745098);
+    font-size: 20px;
+    color: white;
+    width: 1000px;
+    height: 300px;
+    top: 160px
+}
+
+    .block_4 p {
+        padding: 110px 0px;
+        text-align: center;
+    }
+
+.block_3:hover .block_4 {
+    visibility: visible;
+    transition: 1s;
+    -webkit-transition: 1s;
+    transform: translatey(-160px);
+    -webkit-transform: translatey(-160px)
+}
+
+.block_3:hover {
+    filter: sepia(50%);
+    -webkit-filter: sepia(60%);
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+}
+
+
+
+
+
+
+.block_5 {
+    width: 1000px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 150px;
+    background: url(https://i.pinimg.com/originals/74/39/e5/7439e59cb1f6a837ee3b29f561d27642.jpg);
+    background-size: cover
+}
+.block_6 {
+    position: absolute;
+    visibility: hidden;
+    left: 1px;
+    background: rgba(0, 0, 0, 0.4392156862745098);
+    font-size: 20px;
+    color: white;
+    width: 1000px;
+    height: 300px;
+    top: 160px
+}
+
+    .block_6 p {
+        padding: 110px 0px;
+        text-align: center;
+    }
+
+.block_5:hover .block_6 {
+    visibility: visible;
+    transition: 1s;
+    -webkit-transition: 1s;
+    transform: translatey(-160px);
+    -webkit-transform: translatey(-160px)
+}
+
+.block_5:hover {
+    filter: sepia(50%);
+    -webkit-filter: sepia(60%);
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+}
+
+
+
+a.button7 {
+    display: inline-block;
+    color: saddlebrown;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+
+    a.button7:hover {
+        background: rgba(255,255,255,.2);
+    }
+
+    a.button7:active {
+        background: brown;
+    }
+
+
+.block_7 {
+    width: 1000px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 150px;
+    background: url(https://redeveloper.ru/upload/iblock/81d/2699219.jpg);
+    background-size: cover
+}
+
+.block_8 {
+    position: absolute;
+    visibility: hidden;
+    left: 1px;
+    background: rgba(0, 0, 0, 0.4392156862745098);
+    font-size: 20px;
+    color: white;
+    width: 1000px;
+    height: 300px;
+    top: 160px
+}
+
+    .block_8 p {
+        padding: 110px 0px;
+        text-align: center;
+    }
+
+.block_7:hover .block_8 {
+    visibility: visible;
+    transition: 1s;
+    -webkit-transition: 1s;
+    transform: translatey(-160px);
+    -webkit-transform: translatey(-160px)
+}
+
+.block_8:hover {
+    filter: sepia(50%);
+    -webkit-filter: sepia(60%);
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+}
+
+.block_9 {
+    width: 1000px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 150px;
+    background: url(https://rostovopera.ru/upload/iblock/de4/de4d0d25adf182f4500a4d4c5a67e45f.jpg);
+    background-size: cover
+}
+
+.block_10 {
+    position: absolute;
+    visibility: hidden;
+    left: 1px;
+    background: rgba(0, 0, 0, 0.4392156862745098);
+    font-size: 20px;
+    color: white;
+    width: 1000px;
+    height: 300px;
+    top: 160px
+}
+
+    .block_10 p {
+        padding: 110px 0px;
+        text-align: center;
+    }
+
+.block_9:hover .block_10 {
+    visibility: visible;
+    transition: 1s;
+    -webkit-transition: 1s;
+    transform: translatey(-160px);
+    -webkit-transform: translatey(-160px)
+}
+
+.block_10:hover {
+    filter: sepia(50%);
+    -webkit-filter: sepia(60%);
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+}
+
+
+
+.block_11 {
+    width: 1000px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 150px;
+    background: url(https://cdnstatic.rg.ru/uploads/images/photogallery/2020/03/16/859f4799ac95684/859f4799ac956841584369348.JPG);
+    background-size: cover
+}
+
+.block_12 {
+    position: absolute;
+    visibility: hidden;
+    left: 1px;
+    background: rgba(0, 0, 0, 0.4392156862745098);
+    font-size: 20px;
+    color: white;
+    width: 1000px;
+    height: 300px;
+    top: 160px
+}
+
+    .block_12 p {
+        padding: 110px 0px;
+        text-align: center;
+    }
+
+.block_11:hover .block_12 {
+    visibility: visible;
+    transition: 1s;
+    -webkit-transition: 1s;
+    transform: translatey(-160px);
+    -webkit-transform: translatey(-160px)
+}
+
+.block_12:hover {
+    filter: sepia(50%);
+    -webkit-filter: sepia(60%);
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+}
+
+
+
+
+
+
+.block_13 {
+    width: 1000px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 150px;
+    background: url(https://rostovopera.ru/upload/iblock/55c/55c4eece6162540a93d3133116c2f2c4.jpg);
+    background-size: cover
+}
+
+.block_14 {
+    position: absolute;
+    visibility: hidden;
+    left: 1px;
+    background: rgba(0, 0, 0, 0.4392156862745098);
+    font-size: 20px;
+    color: white;
+    width: 1000px;
+    height: 300px;
+    top: 160px
+}
+
+    .block_14 p {
+        padding: 110px 0px;
+        text-align: center;
+    }
+
+.block_13:hover .block_14 {
+    visibility: visible;
+    transition: 1s;
+    -webkit-transition: 1s;
+    transform: translatey(-160px);
+    -webkit-transform: translatey(-160px)
+}
+
+.block_14:hover {
+    filter: sepia(50%);
+    -webkit-filter: sepia(60%);
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+}
+
+
+
+
+
+.block_15 {
+    width: 1000px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 150px;
+    background: url(https://cdn.culture.ru/images/0ae60e44-609d-5b6c-9d8e-0332002abd24);
+    background-size: cover
+}
+
+.block_16 {
+    position: absolute;
+    visibility: hidden;
+    left: 1px;
+    background: rgba(0, 0, 0, 0.4392156862745098);
+    font-size: 20px;
+    color: white;
+    width: 1000px;
+    height: 300px;
+    top: 160px
+}
+
+    .block_16 p {
+        padding: 110px 0px;
+        text-align: center;
+    }
+
+.block_15:hover .block_16 {
+    visibility: visible;
+    transition: 1s;
+    -webkit-transition: 1s;
+    transform: translatey(-160px);
+    -webkit-transform: translatey(-160px)
+}
+
+.block_16:hover {
+    filter: sepia(50%);
+    -webkit-filter: sepia(60%);
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+}
+
+
+
+
+.wrapper {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size:30px;
+
+}
+
+.wrapper-variation {
+    margin-top: 50px;
+}

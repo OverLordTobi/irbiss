@@ -1,0 +1,39 @@
+﻿@model Contact 
+@{
+    ViewData["Title"] = "Регестрация";
+}
+
+<h1>Регестрация </h1>
+
+<form method="POST" asp-controller="Contacts" asp-action="Check" >
+
+    <label asp-for="Surname"></label>
+    <input asp-for="Surname" />
+    <span asp-validation-for="Surname"></span>
+
+    <label asp-for="Name"></label>
+    <input asp-for="Name" />
+    <span asp-validation-for="Name"></span>
+
+    <label asp-for="Otchestvo"></label>
+    <input asp-for="Otchestvo" />
+    <span asp-validation-for="Otchestvo"></span>
+
+    <label asp-for="Pasword"></label>
+    <input asp-for="Pasword" />
+    <span asp-validation-for="Pasword"></span>
+   
+    <label asp-for="Age"></label>
+    <input asp-for="Age" />
+    <span asp-validation-for="Age"></span>
+
+    <label asp-for="Email"></label>
+    <input asp-for="Email" />
+    <span asp-validation-for="Email"></span>
+
+    <label asp-for="City"></label>
+    <input asp-for="City" />
+    <span asp-validation-for="City"></span>
+
+    <input type="submit" value="Отправить" />
+</form>
